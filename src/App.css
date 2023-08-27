@@ -12,3 +12,47 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/** Product Card **/
+.w-285{
+  width: 285px;
+}
+.h-446{
+  height: 440px;
+}
+.h-301{
+  height: 301px;
+}
+.color-3A3A3A{
+  color: #3A3A3A;
+}
+.color-898989{
+  color: #898989;
+}
+.color-B0B0B0{
+  color: #B0B0B0;
+}
+.bg-F4F5F7{
+  background: #F4F5F7;
+}
+
+.bg-E97171{
+  background: #E97171;
+}
+
+.product-card:hover .hover-cart {
+display: block;
+
+
+
+}
+.hover-cart {
+  display: none;
+ 
+}
+
+/** Swiper JS **/
+.swiper-pagination-bullet-active{
+  background: black !important;
+}
