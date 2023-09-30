@@ -48,5 +48,25 @@ export const products = [
     {
         img:product5,
         title:"Dining"
+    },
+    {
+        img:product1,
+        title:"Dining"
+    },
+    {
+        img:product2,
+        title:"Living"
+    },
+    {
+        img:product3,
+        title:"Bedroom"
+    },
+    {
+        img:product4,
+        title:"Dining"
+    },
+    {
+        img:product5,
+        title:"Dining"
     }
 ]

@@ -50,6 +50,12 @@ export const Navbar = () => {
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
                     <Popover className="relative">
+                        <Link to="/" className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+                            Home
+                        </Link>
+
+                    </Popover>
+                    <Popover className="relative">
                         <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
                             Features
                             <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
@@ -100,15 +106,15 @@ export const Navbar = () => {
                         </Transition>
                     </Popover>
 
-                    <Link to="/home/chat" className="text-sm font-semibold leading-6 text-gray-900">
-                        Conversation
+                    <Link to="/shop" className="text-sm font-semibold leading-6 text-gray-900">
+                        Shop
                     </Link>
                     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                        Marketplace
+                        About
                     </a>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                        Community
-                    </a>
+                    <Link to="/contact" className="text-sm font-semibold leading-6 text-gray-900">
+                        Contact
+                    </Link>
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-6 cursor-pointer">
                     {/* Profile dropdown */}
@@ -178,19 +184,19 @@ export const Navbar = () => {
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Features
+                                    Contact
                                 </a>
                                 <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Marketplace
+                                    Shope
                                 </a>
                                 <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Company
+                                    About
                                 </a>
                             </div>
                             <div className="py-6">

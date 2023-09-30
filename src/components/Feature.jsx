@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import 'swiper/css/pagination';
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import { features } from '../Data';
 
 export const Feature = () => {
@@ -26,7 +26,7 @@ export const Feature = () => {
           effect='slide'
           speed={1000}
           freeMode={true}
-          Navigation={true}
+
           autoplay={{
             delay: 3000, // Delay between slide transitions in milliseconds
             disableOnInteraction: false, // Autoplay continues even after user interaction
@@ -45,7 +45,7 @@ export const Feature = () => {
           }}
 
           modules={[Pagination]}
-          className='w-60 lg:w-full lg:px-60 h-80 lg:h-full rounded-lg mb-20 px-6'
+          className='w-60 md:w-full lg:px-60 h-80 lg:h-full rounded-lg mb-20 px-6'
         >
           {
             features.map((item,index)=> (
