@@ -25,6 +25,7 @@ import { RadioGroup } from '@headlessui/react'
 import Cart from './Cart'
 import { FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import { Recommended } from './Recommended'
+import { Link } from 'react-router-dom'
 
 const product = {
     name: 'Basic Tee 6-Pack',
@@ -300,7 +301,7 @@ export default function SingleProductDetails() {
                                 Add to Cart
                             </button>
                             <Cart setOpen={setOpen} open={open} />
-                            <button
+                            <Link to="/shop/product/comparison"
                                 type="submit"
                                 className="mt-10 flex w-full items-center justify-center rounded-md border  bg-B88E2F px-8 py-3 text-base font-medium text-gray-600 cart focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                             >
@@ -308,7 +309,7 @@ export default function SingleProductDetails() {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                                 </svg>
                                 Compare
-                            </button>
+                            </Link>
                         </form>
                     </div>
 

@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'bg':'#B88E2F',
+
+      },
       gridTemplateRows: {
         '[auto,auto,1fr]': 'auto auto 1fr',
       },
