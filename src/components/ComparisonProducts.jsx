@@ -125,10 +125,10 @@ export const ComparisonProducts = () => {
                     </Popover>
                 </div>
             </div>
-            <div className="container flex">
+            <div className="container flex mb-20">
                 <div className=' border-t border-r w-1/4'>
                     <div className='mt-8'>
-                        <h1 className='mb-4 font-semibold'>General</h1>
+                        <h1 className='mb-6 font-semibold'>General</h1>
                         <div className='flex flex-col mb-14 gap-4'>
                             <Link>Sales Packages</Link>
                             <Link>Model Number</Link>
@@ -141,40 +141,61 @@ export const ComparisonProducts = () => {
                     <div className=''>
                         <h1 className='mb-4 font-semibold'>Product</h1>
                         <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
+                            <Link>Filling Material</Link>
+                            <Link>Finish Type</Link>
+                            <Link>Adjustable Headrest</Link>
+                            <Link>Maximum Load Capacity</Link>
+                            <Link>Origin of Manufacture</Link>
                         </div>
                     </div>
                     <div className=''>
                         <h1 className='mb-4 font-semibold'>Dimentions</h1>
                         <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
+                            <Link>Width</Link>
+                            <Link>Height</Link>
+                            <Link>Depth</Link>
+                            <Link>Weight</Link>
+                            <Link>Seat Height</Link>
+                            <Link>Leg Height</Link>
                         </div>
                     </div>
                     <div className=''>
                         <h1 className='mb-4 font-semibold'>Warranty</h1>
                         <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
+                            <Link>Warrenty Summary</Link>
+                            <Link>Warrenty Service Type</Link>
+                            <Link>Covered in Warrenty</Link>
+                            <Link>Not Covered in Warrenty</Link>
+                            <Link>Domestic Warrenty</Link>
+                         
                         </div>
                     </div>
                 </div>
                 <div className=' border-t border-r w-1/4 pl-6'>
-                    <div className='mt-8'>
-                        <h1 className='mb-4 font-semibold '>General</h1>
+                    <div className='mt-20'>
+                       
+                        <div className='flex flex-col mb-14 gap-4'>
+                            <Link>1 Sectional sofa</Link>
+                            <Link>TFCBLIGRBLJIHSH</Link>
+                            <Link>Solid Wood</Link>
+                            <Link>L-Shaped</Link>
+                            <Link>Fabric + Cotton</Link>
+                            <Link>Bright Grey & Lion</Link>
+                        </div>
+                    </div>
+                    <div className='mt-24 '>
+                       
+                        <div className='flex flex-col mb-14 gap-4'>
+                            <Link>Foam</Link>
+                            <Link>Bright Grey & Lion</Link>
+                            <Link>No</Link>
+                            <Link>280 KG</Link>
+                            <Link>India</Link>
+                           
+                        </div>
+                    </div>
+                    <div className='mt-24'>
+                       
                         <div className='flex flex-col mb-14 gap-4'>
                             <Link>Sales Packages</Link>
                             <Link>Model Number</Link>
@@ -184,43 +205,23 @@ export const ComparisonProducts = () => {
                             <Link>Upholstery Color</Link>
                         </div>
                     </div>
-                    <div className=''>
-                        <h1 className='mb-4 font-semibold'>Product</h1>
+                    <div className='mt-24'>
+                    
                         <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
+                            <Link>1 Year Manufacturing Warranty</Link>
+                            <Link>For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</Link>
+                            <Link>Warranty Against Manufacturing Defect</Link>
+                            <Link>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</Link>
+                            <Link>1 Year</Link>
+                           
                         </div>
                     </div>
-                    <div className=''>
-                        <h1 className='mb-4 font-semibold'>Dimentions</h1>
-                        <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
-                        </div>
-                    </div>
-                    <div className=''>
-                        <h1 className='mb-4 font-semibold'>Warranty</h1>
-                        <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
-                        </div>
-                    </div>
+
+                    <button className=' bg-[#B88E2F] text-white text-xs px-6 py-4 rounded-sm hover:bg-white border hover:text-gray-800'>Add to Cart</button>
                 </div>
                 <div className=' border-t border-r w-1/4 pl-6'>
-                    <div className='mt-8'>
-                        <h1 className='mb-4 font-semibold'>General</h1>
+                    <div className='mt-20'>
+                       
                         <div className='flex flex-col mb-14 gap-4'>
                             <Link>Sales Packages</Link>
                             <Link>Model Number</Link>
@@ -230,8 +231,19 @@ export const ComparisonProducts = () => {
                             <Link>Upholstery Color</Link>
                         </div>
                     </div>
-                    <div className=''>
-                        <h1 className='mb-4 font-semibold'>Product</h1>
+                    <div className='mt-24'>
+                       
+                        <div className='flex flex-col mb-14 gap-4'>
+                            <Link>Sales Packages</Link>
+                            <Link>Model Number</Link>
+                            <Link>Secondary Material</Link>
+                            <Link>Configuration</Link>
+                            <Link>Upholstery Material</Link>
+                          
+                        </div>
+                    </div>
+                    <div className='mt-24'>
+                      
                         <div className='flex flex-col mb-14 gap-4'>
                             <Link>Sales Packages</Link>
                             <Link>Model Number</Link>
@@ -241,28 +253,18 @@ export const ComparisonProducts = () => {
                             <Link>Upholstery Color</Link>
                         </div>
                     </div>
-                    <div className=''>
-                        <h1 className='mb-4 font-semibold'>Dimentions</h1>
+                    <div className='mt-24'>
+                  
                         <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
+                            <Link>1.2 Year Manufacturing Warrenty</Link>
+                            <Link>For Warrenty Claims or Any Product Related Issues Please Email at <br/>support@xyz.com</Link>
+                            <Link>Warrenty of the product is limited to defects</Link>
+                            <Link>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</Link>
+                            <Link>3 Months</Link>
+                           
                         </div>
                     </div>
-                    <div className=''>
-                        <h1 className='mb-4 font-semibold'>Warranty</h1>
-                        <div className='flex flex-col mb-14 gap-4'>
-                            <Link>Sales Packages</Link>
-                            <Link>Model Number</Link>
-                            <Link>Secondary Material</Link>
-                            <Link>Configuration</Link>
-                            <Link>Upholstery Material</Link>
-                            <Link>Upholstery Color</Link>
-                        </div>
-                    </div>
+                    <button className=' bg-[#B88E2F] text-white text-xs px-6 py-4 rounded-sm hover:bg-white border hover:text-gray-800'>Add to Cart</button>
                 </div>
             </div>
         </div>
